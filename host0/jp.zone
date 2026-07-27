@@ -1,0 +1,14 @@
+$TTL 3H
+$ORIGIN jp.
+@	IN SOA	host0 root (
+					2026071501	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	NS	host0.jp.
+example1.jp.	NS	host1.example1.jp.
+example2.jp.	NS	host2.example2.jp.
+host0	A	192.168.56.100
+host1.example1.jp.	A	192.168.56.101
+host2.example2.jp.	A	192.168.56.102
